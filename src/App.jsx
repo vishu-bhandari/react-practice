@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 const App = () => {
   const [Fullname, setFullName] = useState({
     fName: "",
@@ -33,6 +34,7 @@ const App = () => {
   return (
     <>
       <div className="main_div">
+     
         <form onSubmit={onSubmits}>
           <div>
             <h1>
@@ -72,6 +74,7 @@ const App = () => {
           </div>
         </form>
       </div>
+           
     </>
   );
 };
