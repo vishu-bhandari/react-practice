@@ -3,6 +3,7 @@ import {Routes, Route} from 'react-router-dom'
 import About from './About'
 import Contact from './Contact'
 import Error from './Error'
+import Navbar from './Navbar'
 
 const App=()=> {
   const Name=()=>{
@@ -14,6 +15,7 @@ const App=()=> {
   }
   return (
     <>
+    <Navbar/>
       <Routes>
         <Route exact path='/' element={<About/>} />
         <Route exact path='/contact' element={<Contact/>}/>
