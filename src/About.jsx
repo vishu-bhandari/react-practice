@@ -1,11 +1,11 @@
 import React from 'react'
 
-function App() {
+function About() {
   return (
     <>
-      
+        
     </>
   )
 }
 
-export default App
+export default About

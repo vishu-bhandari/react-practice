@@ -1,11 +1,11 @@
 import React from 'react'
 
-function App() {
+function Contact() {
   return (
     <>
-      
+        
     </>
   )
 }
 
-export default App
+export default Contact
