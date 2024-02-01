@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Contact() {
+const  Contact=()=> {
   return (
     <>
-        
+        <h1>hello, i am contact page </h1>
     </>
   )
 }

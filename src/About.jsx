@@ -1,9 +1,9 @@
 import React from 'react'
 
-function About() {
+const  About=()=> {
   return (
     <>
-        
+        <h1>hello, i am about page </h1>
     </>
   )
 }
