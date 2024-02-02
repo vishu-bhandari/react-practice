@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import Error from "./Error";
 import Navbar from "./Navbar";
 import Services from "./Services";
+import User from "./User";
 
 const App = () => {
   const Name = () => {
@@ -27,6 +28,7 @@ const App = () => {
         />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/service" element={<Services name="service" />} />
+        <Route path="/user/" element={<User/>}/>
         <Route path="/contact/Name" element={<Name />} />
         <Route path="*" element={<Error />} />
       </Routes>

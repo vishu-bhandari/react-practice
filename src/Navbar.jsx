@@ -8,6 +8,9 @@ function Navbar() {
         <NavLink exact activeClassName="active_class" to="/">
           About us
         </NavLink>
+        <NavLink exact activeClassName="active_class" to="/user">
+          User 
+        </NavLink>
         <NavLink exact activeClassName="active_class" to="/service">
           Services
         </NavLink>
