@@ -1,10 +1,12 @@
 import React from 'react';
-import { useParams , useLocation } from 'react-router-dom';
+import { useParams , useLocation , useNavigate, } from 'react-router-dom';
 
 const User = () => {
   const {fname, lname} = useParams();
   const location=useLocation();
   console.log(location);
+  const navigate=useNavigate();
+  
 
   return (
     <>
@@ -12,7 +14,7 @@ const User = () => {
        <p>my curr location is {location.pathname}</p>
        {location.pathname ===`/user/vishu/bhandari` ? (
        <button onClick={()=>{
-        alert(`you are awseome`)
+       navigate(-1);
        }}>Click me</button> ) :null }
        
     </>
