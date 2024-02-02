@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+
 import About from "./About";
 import Contact from "./Contact";
 import Error from "./Error";
@@ -28,7 +29,8 @@ const App = () => {
         />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/service" element={<Services name="service" />} />
-        <Route path="/user/" element={<User/>}/>
+        <Route path="/user/:fname/:lname" element={<User />} />
+        <Route path="/user" element={<User/>}></Route>
         <Route path="/contact/Name" element={<Name />} />
         <Route path="*" element={<Error />} />
       </Routes>

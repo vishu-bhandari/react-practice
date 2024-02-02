@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { useParams } from 'react-router-dom';
 
-function User() {
+const User = () => {
+  const {fname, lname} = useParams();
+
   return (
     <>
-       <h1> this is the user page</h1>
+       <h1> this {fname } {lname} user page</h1>
     </>
-  )
+  );
 }
 
-export default User
+export default User;
