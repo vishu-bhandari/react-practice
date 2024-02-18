@@ -15,6 +15,7 @@ const About = (props) => {
         <div className="text-center">
           <button className="btn btn-outline-success ">
             welcome to future
+            
           </button>
         </div>
       </div>
